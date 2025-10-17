@@ -1,0 +1,50 @@
+
+
+/************************************/
+/*** 	   16. Our Blog css 	  ***/
+/************************************/
+
+
+
+
+
+.post-featured-image{
+	margin-bottom: 20px;
+}
+
+.post-featured-image a,
+.post-featured-image figure{
+    cursor: none;	
+    display: block;
+	border-radius: 10px;
+    overflow: hidden;
+}
+
+.post-featured-image img{
+    aspect-ratio: 1 / 0.88;
+    object-fit:cover;
+    transition: all 0.5s ease-in-out;
+}
+
+.post-item:hover .post-featured-image img{
+	transform: scale(1.1);
+}
+
+.post-item-body{
+	padding: 10px;
+}
+
+.post-item-content{
+	margin-bottom: 20px;
+}
+
+.post-item-content h2{
+    font-size: 20px;
+	line-height: 1.4em;
+}
+
+.post-item-content h2 a{
+    color: inherit;
+}
+
+
